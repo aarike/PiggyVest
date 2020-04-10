@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PiggyVest | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="flex-container">
+        <img src="img/piggyvest.svg">
+    	<div class="form">
+    		<div id="acc"> 
+          <div class="c">
+            <h2 class="text">Create a Secure Account</h2>
+            <p class="font">Welcome to the future of Savings & Investments</p>
+          </div>
+                <form class="action" action="/action_page.php" method="POST">
+	                <p>
+		                <label>Full Name</label><br>
+   		                <input type="text" name="full_name" placeholder="Full Name">
+	                </p>
+	                <p>
+		                <label>Email Address</label><br>
+   		                <input type="text" name="email address" placeholder="Email Address">
+	                </p>
+	                <p>
+		                <label>Phone Number</label><br>
+   		                <input type="text" name="phone number" placeholder="Phone Number">
+	                </p>
+	                <p>
+		                <label>Password</label><br>
+   		                <input type="text" name="password" placeholder="Password">
+	                </p>
+	                <p>
+		                <label> Referrer Phone or Promo Code (Optional)</label><br>
+   		                <input type="text" name="Referrer" placeholder="Referrer Phone or Code">
+	                </p>
+	                <p>
+		                <label>How Did You Hear About Us? (Optional)</label><br>
+   		                <select class="minimal">
+                            <option>Click To Select</option>
+                            <option>Facebook</option>
+                            <option>Friend/Family/Coworker Referral</option>
+                            <option>Google search</option>
+                            <option>Google playstore </option>
+                            <option>Online Blog</option>
+                            <option>Local Newspaper</option>
+                            <option>At an event</option>
+                            <option>Other</option>
+                        </select> 
+                    
+	                </p>
+	                <p>
+   		                <button type="submit">CREATE ACCOUNT</button>
+	                </p>
+                </form>
+    		</div>
+    	</div>
+           <div class="login">
+                <p>
+                    <a href="login.php"> Already have an account? Log In</a>
+                </p>
+           </div>
+    </div>
+
+</body>
+</html>

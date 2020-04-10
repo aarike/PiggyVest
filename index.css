@@ -1,0 +1,164 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #062863;
+}
+
+body {
+  margin: 0px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0;
+  border: 1px solid  #edf2f7;
+  border-radius: .25rem;
+  box-sizing: border-box;
+  background-color:  #edf2f7;
+  line-height: inherit;
+  outline: 0;
+  padding-left: .25rem
+
+}
+
+select {
+  width: 100%;
+  margin: 0;
+  border: 1px solid  #edf2f7;
+  border-radius: .25rem;
+  background-color: #edf2f7;
+  padding: 12px 20px;
+  font-size: medium;
+  line-height: inherit;
+  padding-left: .25rem
+  -moz-box-sizing: border-box;
+  -webkit-appearance:none;
+  
+
+
+}
+
+select.minimal {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+
+}
+
+select.minimal:focus {
+  background-image:
+    linear-gradient(45deg,  #95CAE5 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #95CAE5 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: #95CAE5;
+  outline: 0;
+}
+
+::placeholder {
+  color: #aebbc5;
+
+}
+
+button{
+  background-color: rgb(8, 62, 158);
+  color: white;
+  width: 100%;
+  padding: 22px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: .75rem;
+  border-bottom-left-radius: 0;
+}
+
+.form {
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-bottom-left-radius: 0;
+
+}
+button:hover {
+  background-color: #062863;
+
+}
+
+.text {
+  margin: 0;
+}
+
+.font {
+  color: #4a5568;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-weight: 600  
+}
+
+div {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+label {
+  opacity: 0.9;
+  font-size: small;
+}
+
+.click {
+  margin: 0;
+  margin-bottom: 2rem;
+ 
+}
+a {
+  text-decoration: initial;
+ color: #ffffff
+}
+.login {
+  background-color: #062863;
+}
+.c {
+  padding-bottom: 0;
+}
+
+h2 {
+  color: rgb(8, 62, 158);
+  text-align:center;
+}
+
+#acc {
+ padding-top: 0px;
+}
+
+img {
+  margin-bottom: 3rem;
+}
+
+html {
+ font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+ line-height: 1.5;
+}
